@@ -13,6 +13,7 @@ vectorizer = pickle.load(open('vectorizer.pkl', 'rb'))
 nltk.download('stopwords')
 nltk.download('wordnet')
 nltk.download('punkt')
+nltk.download('punkt_tab')
 
 stop_words = set(stopwords.words('english'))
 lemmatizer = WordNetLemmatizer()
